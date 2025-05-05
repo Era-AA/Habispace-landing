@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HabiSpace</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f7f0;
+      color: #3e4044;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2rem;
+    }
+
+    .nav-buttons {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(2, 150px);
+    }
+
+    .nav-buttons a {
+      text-decoration: none;
+      color: #3e4044;
+      background-color: #d9c1bb;
+      padding: 1rem;
+      border-radius: 2rem;
+      text-align: center;
+      font-size: 1.2rem;
+      font-family: 'Solway', serif;
+      transition: all 0.3s ease;
+    }
+
+    .nav-buttons a:nth-child(2n) {
+      background-color: #b6c2c2;
+    }
+
+    .nav-buttons a:nth-child(3),
+    .nav-buttons a:nth-child(4) {
+      background-color: #2e414d;
+      color: white;
+    }
+
+    .nav-buttons a:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    .logo-section {
+      text-align: center;
+    }
+
+    .logo-section img {
+      width: 100px;
+      margin-bottom: 1rem;
+    }
+
+    .logo-section h1 {
+      font-family: 'Moonjelly', sans-serif;
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    .logo-section p {
+      font-size: 1rem;
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+
+    .tagline {
+      position: absolute;
+      top: 0.5rem;
+      right: 1rem;
+      font-size: 0.9rem;
+      font-style: italic;
+      color: #5b5b5b;
+    }
+  </style>
+</head>
+<body>
+  <div class="tagline">From idea to haven — designing spaces that feel like home to everyone</div>
+  <div class="container">
+    <div class="nav-buttons">
+      <a href="https://example.com/habikits" target="_blank">HabiKits</a>
+      <a href="https://example.com/blogs" target="_blank">Blogs</a>
+      <a href="https://example.com/about" target="_blank">About Us</a>
+      <a href="https://example.com/team" target="_blank">Meet our Team</a>
+      <a href="https://example.com/support" target="_blank">Support Inclusive Spaces Worldwide</a>
+      <a href="https://example.com/join" target="_blank">Be Part of HabiSpace</a>
+    </div>
+
+    <div class="logo-section">
+      <img src="elephant.png" alt="HabiSpace Elephant Logo">
+      <h1>HabiSpace</h1>
+      <p>Spaces for all</p>
+    </div>
+  </div>
+</body>
+</html>
